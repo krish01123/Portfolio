@@ -5,22 +5,22 @@ const projects = [
   {
     title: "Space",
     category: "Web Design",
-    image: "/project1.png",
+    image: "/Project1.png",
   },
   {
     title: "Nova",
     category: "Web Design",
-    image: "/project2.png",
+    image: "/Project2.png",
   },
   {
     title: "Sonic",
     category: "Web Design",
-    image: "/project3.png",
+    image: "/Project3.png",
   },
   {
     title: "Solar",
     category: "Web Design",
-    image: "/project4.png",
+    image: "/Project4.png",
   },
 ];
 
