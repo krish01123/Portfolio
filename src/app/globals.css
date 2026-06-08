@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.logo-group {
+  display: flex;
+  gap: 4rem;
+  flex-shrink: 0;
+}
+
+.logo-group:not(:last-child) {
+  margin-right: 4rem;
+}
+
+.logo-item {
+  opacity: 0.7;
+  transition: 0.3s ease;
+  width: 100px;
+  height: auto;
+}
+
+.logo-item:hover {
+  opacity: 1;
+}
+
+.review-track {
+  display: flex;
+  width: max-content;
+  gap: 1.5rem;
+  animation: scroll 80s linear infinite;
+  will-change: transform;
+}
+
+.review-track:hover {
+  animation-play-state: paused;
+}
+
+.ticker-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: ticker 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

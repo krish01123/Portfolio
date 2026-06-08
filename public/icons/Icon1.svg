@@ -1,0 +1,27 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-30" y="-30" width="98" height="98"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(15px);clip-path:url(#bgblur_0_37_35_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="30">
+<rect width="38" height="38" rx="19" fill="#DAC5A7" fill-opacity="0.05"/>
+<rect x="0.5" y="0.5" width="37" height="37" rx="18.5" stroke="#DAC5A7" stroke-opacity="0.15"/>
+</g>
+<g clip-path="url(#clip1_37_35)">
+<g clip-path="url(#clip2_37_35)">
+<g clip-path="url(#clip3_37_35)">
+<path d="M11 15C11 13.9391 11.4214 12.9217 12.1716 12.1716C12.9217 11.4214 13.9391 11 15 11H23C24.0609 11 25.0783 11.4214 25.8284 12.1716C26.5786 12.9217 27 13.9391 27 15V23C27 24.0609 26.5786 25.0783 25.8284 25.8284C25.0783 26.5786 24.0609 27 23 27H15C13.9391 27 12.9217 26.5786 12.1716 25.8284C11.4214 25.0783 11 24.0609 11 23V15Z" stroke="#DAC5A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 19C16 19.7956 16.3161 20.5587 16.8787 21.1213C17.4413 21.6839 18.2044 22 19 22C19.7956 22 20.5587 21.6839 21.1213 21.1213C21.6839 20.5587 22 19.7956 22 19C22 18.2044 21.6839 17.4413 21.1213 16.8787C20.5587 16.3161 19.7956 16 19 16C18.2044 16 17.4413 16.3161 16.8787 16.8787C16.3161 17.4413 16 18.2044 16 19Z" stroke="#DAC5A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.5 14.5V14.51" stroke="#DAC5A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="bgblur_0_37_35_clip_path" transform="translate(30 30)"><rect width="38" height="38" rx="19"/>
+</clipPath><clipPath id="clip1_37_35">
+<rect width="24" height="24" fill="white" transform="translate(7 7)"/>
+</clipPath>
+<clipPath id="clip2_37_35">
+<rect width="24" height="24" fill="white" transform="translate(7 7)"/>
+</clipPath>
+<clipPath id="clip3_37_35">
+<rect width="24" height="24" fill="white" transform="translate(7 7)"/>
+</clipPath>
+</defs>
+</svg>
