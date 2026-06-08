@@ -117,7 +117,7 @@ export default function ServicesPage() {
 
             <div className="mx-auto max-w-3xl overflow-hidden rounded-sm border border-[#151515]">
               <Image
-                src="/project1.png"
+                src="/Project1.png"
                 alt="Web Design Process"
                 width={1800}
                 height={1200}
@@ -172,7 +172,7 @@ export default function ServicesPage() {
 
             <div className="mx-auto max-w-3xl overflow-hidden rounded-sm border border-[#151515]">
               <Image
-                src="/project4.png"
+                src="/Project4.png"
                 alt="Web Design Process"
                 width={1800}
                 height={1200}
@@ -227,7 +227,7 @@ export default function ServicesPage() {
 
             <div className="mx-auto max-w-3xl overflow-hidden rounded-sm border border-[#151515]">
               <Image
-                src="/project3.png"
+                src="/Project3.png"
                 alt="Web Design Process"
                 width={1800}
                 height={1200}
