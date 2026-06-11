@@ -3,7 +3,7 @@ import Hero from "@/components/Home/Hero";
 import Logo from "@/components/Home/Logo";
 import Navbar from "@/components/Home/Navbar";
 import Review from "@/components/Home/Review";
-import SelectedWork from "@/components/Home/SelectedWork";
+import Work from "@/components/Work/Work";
 import Self from "@/components/Home/Self";
 import Service from "@/components/Home/Service";
 import Slider from "@/components/Home/Slider";
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Logo />
       <Service />
-      <SelectedWork />
+      <Work />
       <WebsiteProcess />
       <Review />
       <Self />
