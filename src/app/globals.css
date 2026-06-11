@@ -76,6 +76,15 @@ body {
   animation: ticker 30s linear infinite;
 }
 
+.scrollbar-hide::-webbkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
