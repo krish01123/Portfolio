@@ -60,9 +60,13 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <button className="bg-[#DAC5A7] px-4 py-3 text-sm text-black">
+            <Link
+              href="/contact"
+              className="bg-[#DAC5A7] px-4 py-3 text-sm text-black text-center"
+              onClick={() => setOpen(false)}
+            >
               LET'S TALK
-            </button>
+            </Link>
           </div>
         </div>
       )}
